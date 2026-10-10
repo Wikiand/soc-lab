@@ -1,0 +1,21 @@
+# Authentication logs: may contain sensitive information
+auth-events.log
+logs/*.log
+!logs/README.md
+
+# Generated alert output
+alerts/*.jsonl
+
+# Local backups
+*.bak
+*.orig
+*~
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Environment and editor files
+.env
+.idea/
+.vscode/
