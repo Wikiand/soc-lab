@@ -9,6 +9,14 @@ alert reporting, and a local web dashboard for security investigation.
 > demonstration. Detection results require human investigation and
 > are not proof of compromise.
 
+## Dashboard Preview
+
+![Local SOC dashboard showing security alerts and investigation details](docs/soc-dashboard.png)
+
+The dashboard provides a local interface for reviewing detected events,
+filtering alerts, and inspecting recommended investigation actions.
+
+
 ## Overview
 
 This project simulates a basic SOC analyst workflow:
